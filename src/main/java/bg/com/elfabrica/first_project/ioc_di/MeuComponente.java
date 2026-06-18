@@ -1,0 +1,11 @@
+package bg.com.elfabrica.first_project.ioc_di;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MeuComponente {
+    public String chamarMeuComponente(){
+        return  "Chamando meu componente";
+    }
+
+}
